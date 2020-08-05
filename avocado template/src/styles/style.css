@@ -1,0 +1,43 @@
+    @font-face {
+        font-family: Markella;
+        src: url(../fonts/muthiara/Markella.ttf);
+
+        font-family: Helvetica;
+        src: url(../fonts/helvetica/Helvetica.otf);
+    }
+    .main{
+    margin: 188px 0 0 100px;
+}
+.photo-bar{
+    width: 300px;
+    background: white;
+    padding-top: 10px;
+    position: relative;
+    filter: drop-shadow(0px 12px 12px rgba(0,0,0,0.12));
+    border: 19.4px solid #ffffff;
+}
+.navi-bar{
+    position: absolute;
+    list-style: none;
+    font-family: Helvetica, serif;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    top: -42px;
+}
+.navi-bar_item{
+    display: inline-block;
+    margin: 0 0 0 35px;
+ }
+.navi-bar:first-child{
+   left: -59px;
+}
+.item_link{
+    text-decoration: none;
+    color: #000000;
+}
+.photo-bar_photo{
+    width: 300px;
+    height: 320px;
+    background-color: #88b5d5;
+}
