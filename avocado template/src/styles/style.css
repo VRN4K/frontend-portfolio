@@ -5,8 +5,31 @@
         font-family: Helvetica;
         src: url(../fonts/helvetica/Helvetica.otf);
     }
-    .main{
+
+.main{
     margin: 188px 0 0 100px;
+}
+.rectangle-colour{
+    position: relative;
+    margin-bottom: 12px;
+    width: 108px;
+    top:-96px;
+    left: -50px;
+    z-index: 1;
+}
+
+.colour_grey{
+    background-color: #d6dada;
+}
+.colour_green{
+    background-color: #269595;
+}
+.rectangle-colour_text{
+    bottom: -12px;
+    left: 9px;
+    font-size: 10px;
+    color: #ffffff;
+    font-family: Helvetica, serif;
 }
 .photo-bar{
     width: 300px;
@@ -15,15 +38,16 @@
     position: relative;
     filter: drop-shadow(0px 12px 12px rgba(0,0,0,0.12));
     border: 19.4px solid #ffffff;
+    z-index: 2;
 }
 .navi-bar{
     position: absolute;
     list-style: none;
     font-family: Helvetica, serif;
     font-size: 12px;
-    letter-spacing: 0px;
     line-height: 28px;
     top: -42px;
+
 }
 .navi-bar_item{
     display: inline-block;
@@ -38,6 +62,4 @@
 }
 .photo-bar_photo{
     width: 300px;
-    height: 320px;
-    background-color: #88b5d5;
 }
