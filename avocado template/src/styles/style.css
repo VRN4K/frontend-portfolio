@@ -8,6 +8,9 @@
 .main{
     margin: 180px 0 0 100px;
 }
+ .photo-bar, .text-form, .rectangle-colour{
+        display: inline-block;
+ }
 .rectangle-colour{
     position: relative;
     width: 108px;
@@ -61,4 +64,26 @@
 .photo-bar_photo{
     margin: 45px 0 0 0 ;
     width: 300px;
+}
+.text-form{
+    position: absolute;
+}
+.text-form_title{
+    position: relative;
+    top: 13px;
+    left: 38px;
+    font-size: 61px;
+    letter-spacing: -2px;
+    color: #269595;
+    font-family: Markella;
+}
+.text-form_text{
+    width: 225px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    margin: -25px 0 0 35px;
 }
