@@ -5,19 +5,16 @@
         font-family: Helvetica;
         src: url(../fonts/helvetica/Helvetica.otf);
     }
-
 .main{
-    margin: 188px 0 0 100px;
+    margin: 180px 0 0 100px;
 }
 .rectangle-colour{
     position: relative;
-    margin-bottom: 12px;
     width: 108px;
-    top:-96px;
-    left: -50px;
+    top:-95px;
+    left: -51px;
     z-index: 1;
 }
-
 .colour_grey{
     background-color: #d6dada;
 }
@@ -25,18 +22,19 @@
     background-color: #269595;
 }
 .rectangle-colour_text{
-    bottom: -12px;
     left: 9px;
-    font-size: 10px;
+    padding: 6px 8px;
+    margin: 0 0 4px 0 ;
+    font-size: 11px;
     color: #ffffff;
     font-family: Helvetica, serif;
 }
 .photo-bar{
     width: 300px;
     background: white;
-    padding-top: 10px;
+    padding-top: 9px;
     position: relative;
-    filter: drop-shadow(0px 12px 12px rgba(0,0,0,0.12));
+    filter: drop-shadow(0px 40px 12px rgba(0,0,0,0.12));
     border: 19.4px solid #ffffff;
     z-index: 2;
 }
@@ -46,20 +44,21 @@
     font-family: Helvetica, serif;
     font-size: 12px;
     line-height: 28px;
-    top: -42px;
-
+    top: 3px;
+    right: -20px;
 }
 .navi-bar_item{
     display: inline-block;
     margin: 0 0 0 35px;
  }
 .navi-bar:first-child{
-   left: -59px;
+    left: -59px;
 }
 .item_link{
     text-decoration: none;
     color: #000000;
 }
 .photo-bar_photo{
+    margin: 45px 0 0 0 ;
     width: 300px;
 }
