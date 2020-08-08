@@ -13,10 +13,20 @@
  }
  .rectangle-form{
      position: relative;
-     width: 108px;
-     top: -23px;
-     left: 60px;
+     width: 8%;
      z-index: 1;
+ }
+ .rectangle-colour{
+     position: relative;
+     top: -23px;
+     left:60px;
+ }
+ .rectangle-colour:hover{
+     left: 10px;
+     transition: left 2s;
+ }
+ .transition, .item_link{
+     transition: .6s ease-in-out;
  }
 .colour_grey{
     background-color: #d6dada;
@@ -32,6 +42,7 @@
     color: #ffffff;
     font-family: Helvetica, serif;
 }
+
 .photo-bar{
     width: 300px;
     background: white;
@@ -52,14 +63,19 @@
 }
 .navi-bar_item{
     display: inline-block;
-    margin: 0 0 0 35px;
+    margin: 0 0 0 28px;
  }
 .navi-bar:first-child{
-    left: -59px;
+    left: -52px;
 }
 .item_link{
     text-decoration: none;
     color: #000000;
+    padding: 2px 5px;
+}
+.item_link:hover{
+    background-color: #269595;
+    color: white;
 }
 .photo-bar_photo{
     margin: 45px 0 0 0 ;
