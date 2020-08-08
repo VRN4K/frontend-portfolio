@@ -5,8 +5,11 @@
         font-family: Helvetica;
         src: url(../fonts/helvetica/Helvetica.otf);
     }
-.main{
-    margin: 180px 0 0 100px;
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
  .photo-bar, .text-form, .rectangle-form{
         display: inline-block;
