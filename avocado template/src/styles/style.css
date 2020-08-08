@@ -87,3 +87,32 @@
     line-height: 16px;
     margin: -25px 0 0 35px;
 }
+.circles-form{
+    position: relative;
+    display: block;
+    margin: 50px 0 0 70px;
+}
+.circles-form_round{
+    position: relative;
+    width: 215px;
+    height: 215px;
+}
+.circles-form_round:after{
+    position: absolute;
+    content: "";
+    width: 215px;
+    height: 215px;
+    background-color: #269595;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.circles-form_photo{
+    position:absolute;
+    width: 140px;
+    border-radius: 50%;
+    border: 6px solid white;
+    z-index: 2;
+    top: 28px;
+    left: 30px;
+}
