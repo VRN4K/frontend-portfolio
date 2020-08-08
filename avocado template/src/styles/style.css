@@ -8,16 +8,16 @@
 .main{
     margin: 180px 0 0 100px;
 }
- .photo-bar, .text-form, .rectangle-colour{
+ .photo-bar, .text-form, .rectangle-form{
         display: inline-block;
  }
-.rectangle-colour{
-    position: relative;
-    width: 108px;
-    top:-95px;
-    left: -51px;
-    z-index: 1;
-}
+ .rectangle-form{
+     position: relative;
+     width: 108px;
+     top: -23px;
+     left: 60px;
+     z-index: 1;
+ }
 .colour_grey{
     background-color: #d6dada;
 }
