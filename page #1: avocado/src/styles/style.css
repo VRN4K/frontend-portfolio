@@ -6,26 +6,26 @@
         src: url(../fonts/helvetica/Helvetica.otf);
     }
 
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.main{
+    margin-left: 25%;
+    margin-top: 3%;
 }
  .photo-bar, .text-form, .rectangle-form{
-        display: inline-block;
+     display: inline-block;
  }
  .rectangle-form{
      position: relative;
      width: 8%;
      z-index: 1;
+
  }
  .rectangle-colour{
      position: relative;
-     top: -23px;
-     left:60px;
+     top: -25px;
+     left: 25px;
  }
  .rectangle-colour:hover{
-     left: 10px;
+     left: 5px;
      transition: left 2s;
  }
  .transition, .item_link{

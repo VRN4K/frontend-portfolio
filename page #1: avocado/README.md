@@ -26,6 +26,10 @@ Info page for your blog.
 ```
 https://
 ```
+- page preview
+```
+[https://vrnkdev.tumblr.com/page1](https://vrnkdev.tumblr.com/page1)
+```
 
 ## Built With
 
@@ -40,6 +44,6 @@ https://
 ## TODO list
 - [x] add readme.md 
 - [ ] add credit comments
-- [ ] change fonts including
-- [ ] compose all in one
+- [x] change fonts including
+- [x] compose all in one
  
