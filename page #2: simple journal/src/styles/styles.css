@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+.left-side,.right-side{
+    height: 800px;
+}
+.left-side{
+    width: 370px;
+    background: aqua;
+}
+.left-side_front-img, .left-side_back-img{
+    position: absolute;
+    border: 15px solid white;
+}
+
+
+.left-side_back-img{
+    width: 241px;
+    height: 445px;
+}
+.left-side_front-img{
+    width: 170px;
+    height: 263px;
+}
+
+
+.right-side{
+
+    width: 430px;
+    background: black;
+}
+
