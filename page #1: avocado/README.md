@@ -1,7 +1,7 @@
 # avocado template by suunflowerx
 
 Info page for your blog. 
-- Contain 2 pictures(one large and one small round image), title, paragraph, 4 navigation links.
+- Contains 2 pictures(one large and one small round image), title, paragraph, 4 navigation links.
 - Temlplate design was created by suunflowerx (visit author on deviantart for expressing your appreciation).
 
 
@@ -26,15 +26,15 @@ Info page for your blog.
 ```
 https://
 ```
-- page preview
-```
-[https://vrnkdev.tumblr.com/page1](https://vrnkdev.tumblr.com/page1)
-```
+- page preview - [https://vrnkdev.tumblr.com/page1](https://vrnkdev.tumblr.com/page1)
+
 
 ## Built With
 
 * **HTML5** - HyperText Markup Language
 * **CSS3** - Cascading Style Sheets
+* **PerfextPixel** - App for browser allows developers and markup designers put a semi-transparent image overlay over the top of the developed HTML and perform pixel perfect comparison between them
+
 
 ## Authors
 
