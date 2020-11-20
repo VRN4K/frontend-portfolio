@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>simple journal template by suunflowerx</title>
+</head>
+<style>
+    /* FONTS */
+
+    @font-face {
+        font-family: 'romanticchicagoregular';
+        src: url('https://dl.dropboxusercontent.com/s/2eich128dvlyy94/romanticchicago-webfont.eot');
+        src: url('https://dl.dropboxusercontent.com/s/2eich128dvlyy94/romanticchicago-webfont.eot?#iefix') format('embedded-opentype'),
+        url('https://dl.dropboxusercontent.com/s/qdqan8kp7yilfu2/romanticchicago-webfont.woff2') format('woff2'),
+        url('https://dl.dropboxusercontent.com/s/hs88i8ptjwbvqbn/romanticchicago-webfont.woff') format('woff'),
+        url('https://dl.dropboxusercontent.com/s/8cgy7f9ht7u7pcw/romanticchicago-webfont.ttf') format('truetype'),
+        url('https://dl.dropboxusercontent.com/s/l6wlbkq4l1g7k29/romanticchicago-webfont.svg#romanticchicagoregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'moonbold';
+        src: url('https://dl.dropboxusercontent.com/s/6p8949e425r2ivt/moon_bold-webfont.eot');
+        src: url('https://dl.dropboxusercontent.com/s/6p8949e425r2ivt/moon_bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('https://dl.dropboxusercontent.com/s/6h2e5k06ktcgrnu/moon_bold-webfont.woff2') format('woff2'),
+        url('https://dl.dropboxusercontent.com/s/dsxdcuaikpp927w/moon_bold-webfont.woff') format('woff'),
+        url('https://dl.dropboxusercontent.com/s/uhcpiq5mxyx34p2/moon_bold-webfont.ttf') format('truetype'),
+        url('https://dl.dropboxusercontent.com/s/aodipk4ima7bmfw/moon_bold-webfont.svg#moonlight') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'dalgonaregular';
+        src: url('https://dl.dropboxusercontent.com/s/qafjwkohujwabtx/dalgona-webfont.eot');
+        src: url('https://dl.dropboxusercontent.com/s/qafjwkohujwabtx/dalgona-webfont.eot?#iefix') format('embedded-opentype'),
+        url('https://dl.dropboxusercontent.com/s/oau8qrz7dfgx1ld/dalgona-webfont.woff2') format('woff2'),
+        url('https://dl.dropboxusercontent.com/s/j6bh6dpjmxoraz4/dalgona-webfont.woff') format('woff'),
+        url('https://dl.dropboxusercontent.com/s/81okq43riyngzcl/dalgona-webfont.ttf') format('truetype'),
+        url('https://dl.dropboxusercontent.com/s/joc9rbanftirwdt/dalgona-webfont.svg#dalgonaregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    /* MAIN BLOCK */
+
+    .main{
+        display: flex;
+        justify-content: center;
+
+    }
+    .left-side,.right-side{
+        height: 800px;
+    }
+
+    /* LEFT SIDE */
+    .left-side{
+        width: 370px;
+    }
+
+    .left-side_title{
+        font-family: 'moonbold', serif;
+        font-size: 11px;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+        line-height: 17px;
+        color: #bf9f99;
+        font-weight: 300;
+
+        position: relative;
+        margin-top: 75px;
+        margin-left: 180px;
+    }
+    .left-side_title::before{
+        content: url(../images/Capa7.png);
+        position: absolute;
+        z-index: 1;
+        left: -43px;
+    }
+    .left-side_front-img, .left-side_back-img{
+        position: absolute;
+        border: 15px solid white;
+        background: white;
+    }
+    .left-side_back-img{
+        width: 207px;
+        height: 411px;
+        margin-left: 115px;
+        margin-top: -10px;
+
+    }
+    .left-side_front-img{
+        width: 147px;
+        height: 239px;
+        margin-left: 150px;
+        margin-top: 295px;
+    }
+
+
+
+    /*RIGHT SIDE*/
+    .right-side{
+        width: 430px;
+    }
+
+    .right-side_top-title{
+        font-family: 'romanticchicagoregular', serif;
+        font-size: 49px;
+        letter-spacing: -1px;
+        word-spacing: 5px;
+        line-height: 16px;
+        color: #bf9f99;
+
+        position: relative;
+        margin-top: 105px;
+        margin-left: 68px;
+    }
+    .right-side_top-title::before{
+        content: url(https://raw.githubusercontent.com/VRN4K/tumblr-pages/master/page%20%232%3A%20simple%20journal/src/images/Capa3.png);
+        position: absolute;
+        top: -5px;
+        left: -60px;
+    }
+
+    .right-side_description{
+        width: 260px;
+        margin-left: 18px;
+        font-family: Poppins, serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        line-height: 14px;
+    }
+    .right-side_img{
+        margin-left: 45px;
+        margin-top: 8px;
+
+    }
+    .right-side_frame{
+        position: relative;
+    }
+    .right-side_frame::before{
+        content: url(../images/Rectangulo.png);
+        position: absolute;
+        left: 39px;
+    }
+
+    .right-side_bottom-title{
+        font-family: 'dalgonaregular', serif;
+        font-size: 57px;
+        letter-spacing: 11px;
+        line-height: 45px;
+        color: #757575;
+
+        position: relative;
+        width: 100px;
+        margin-top: 58px;
+        margin-left: 80px;
+    }
+
+    .right-side_bottom-title::before{
+        content: url(https://raw.githubusercontent.com/VRN4K/tumblr-pages/master/page%20%232%3A%20simple%20journal/src/images/Rellenodecolor1.png);
+        position: absolute;
+        left: 12px;
+        top: -55px;
+    }
+    /* CREDITS */
+    .credits{
+        position: fixed;
+        bottom: 5%;
+        left: 92%;
+    }
+    .credit_link{
+        color: black;
+        font-size: 8px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+    }
+    .credit_link:hover{
+        color: #757575;
+    }
+</style>
+<body>
+<div class="main">
+    <div class="left-side">
+        <h2 class="left-side_title">sunsun update</h2>
+        <img class="left-side_back-img" src="../images/Capa%202.png" alt="Your left side large photo"/>
+        <img class="left-side_front-img" src="../images/Capa%204.png" alt="Your left side small photo"/>
+    </div>
+    <div class="right-side">
+        <h1 class="right-side_top-title">idol radio</h1>
+        <p class="right-side_description">Hold me close and hold me fast
+            The magic spell you cast
+            This is la vie en rose
+            When you kiss me, Heaven sighs
+            And though I close my eyes
+            I see la vie en rose
+            When you press me to your heart
+            And in a world apart
+            A world where roses bloomAnd when you speak
+            Angels sing from above
+            Every day words
+            Seems to turn into love songs
+            Give your heart and soul to me
+            And life will always be
+            La vie en rose</p>
+        <span class="right-side_frame">
+            <img class="right-side_img" src="../images/Capa%201.png" alt="Your right side photo"/>
+        </span>
+
+        <h1 class="right-side_bottom-title">fant asia</h1>
+
+    </div>
+</div>
+<div class="credits">
+    <a class="credit_link" href="https://vrnkdev.tumblr.com/">vrnk-themes</a>
+</div>
+</body>
+</html>
