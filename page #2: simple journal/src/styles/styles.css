@@ -10,6 +10,10 @@
     src: url(../fonts/RomanticChicago/RomanticChicago.ttf);
 }
 
+@font-face {
+    font-family: Dalgona;
+    src: url(../fonts/dalgona/Dalgona.ttf);
+}
 
 /* LEFT SIDE */
 
@@ -49,12 +53,14 @@
 .left-side_front-img, .left-side_back-img{
     position: absolute;
     border: 15px solid white;
+    background: white;
 }
 .left-side_back-img{
     width: 207px;
     height: 411px;
     margin-left: 115px;
     margin-top: -10px;
+
 }
 .left-side_front-img{
     width: 147px;
@@ -70,7 +76,7 @@
     width: 430px;
 }
 
-.right-side_title{
+.right-side_top-title{
     font-family: RomanticChicago, serif;
     font-size: 49px;
     letter-spacing: -1px;
@@ -82,7 +88,7 @@
     margin-top: 105px;
     margin-left: 68px;
 }
-.right-side_title::before{
+.right-side_top-title::before{
     content: url(../images/Capa3.png);
     position: absolute;
     top: -5px;
@@ -99,3 +105,37 @@
     letter-spacing: 0.5px;
     line-height: 14px;
 }
+.right-side_img{
+    margin-left: 45px;
+    margin-top: 8px;
+
+}
+.right-side_frame{
+    position: relative;
+}
+.right-side_frame::before{
+    content: url(../images/Rectangulo.png);
+    position: absolute;
+    left: 39px;
+ }
+
+.right-side_bottom-title{
+    font-family: Dalgona, serif;
+    font-size: 57px;
+    letter-spacing: 11px;
+    line-height: 45px;
+    color: #757575;
+
+    position: relative;
+    width: 100px;
+    margin-top: 58px;
+    margin-left: 80px;
+}
+
+.right-side_bottom-title::before{
+    content: url(../images/Rellenodecolor1.png);
+    position: absolute;
+    left: 12px;
+    top: -55px;
+}
+
