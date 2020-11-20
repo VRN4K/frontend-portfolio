@@ -20,7 +20,7 @@ Info page for your blog.
   - **fonts** - fonts used in file
   
 - tumblr version
-  - **index #?** - all structure above in one file for tumblr
+  - **index** - all structure above in one file for tumblr
   
 - [link for tumblr version ](https://github.com/VRN4K/tumblr-pages/blob/master/page%20%232:%20simple%20journal/tumblr%20version/index.html) 
 
@@ -44,4 +44,5 @@ https://vrnkdev.tumblr.com/page2
 - [ ] add credit comments
 - [x] upload fonts including
 - [x] compose all in one
+- [ ] write the instruction
  
