@@ -1,3 +1,18 @@
+/* FONTS */
+
+@font-face {
+    font-family: Moon;
+    src: url(../fonts/MoonTypeface-FREE-FONT/MoonBold.otf);
+}
+
+@font-face {
+    font-family: RomanticChicago;
+    src: url(../fonts/RomanticChicago/RomanticChicago.ttf);
+}
+
+
+/* LEFT SIDE */
+
 .main{
     display: flex;
     justify-content: center;
@@ -6,29 +21,81 @@
 .left-side,.right-side{
     height: 800px;
 }
+
+/* LEFT SIDE */
 .left-side{
     width: 370px;
-    background: aqua;
+}
+
+.left-side_title{
+    font-family: Moon, serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    line-height: 17px;
+    color: #bf9f99;
+    font-weight: 300;
+
+    position: relative;
+    margin-top: 75px;
+    margin-left: 180px;
+}
+.left-side_title::before{
+    content: url(../images/Capa7.png);
+    position: absolute;
+    z-index: 1;
+    left: -43px;
 }
 .left-side_front-img, .left-side_back-img{
     position: absolute;
     border: 15px solid white;
 }
-
-
 .left-side_back-img{
-    width: 241px;
-    height: 445px;
+    width: 207px;
+    height: 411px;
+    margin-left: 115px;
+    margin-top: -10px;
 }
 .left-side_front-img{
-    width: 170px;
-    height: 263px;
+    width: 147px;
+    height: 239px;
+    margin-left: 150px;
+    margin-top: 295px;
 }
 
 
+
+/*RIGHT SIDE*/
 .right-side{
-
     width: 430px;
-    background: black;
 }
 
+.right-side_title{
+    font-family: RomanticChicago, serif;
+    font-size: 49px;
+    letter-spacing: -1px;
+    word-spacing: 5px;
+    line-height: 16px;
+    color: #bf9f99;
+
+    position: relative;
+    margin-top: 105px;
+    margin-left: 68px;
+}
+.right-side_title::before{
+    content: url(../images/Capa3.png);
+    position: absolute;
+    top: -5px;
+    left: -60px;
+}
+
+.right-side_description{
+    width: 260px;
+    margin-left: 18px;
+    font-family: Poppins, serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    line-height: 14px;
+}
