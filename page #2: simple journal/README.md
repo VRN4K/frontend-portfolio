@@ -1,7 +1,7 @@
 # simple journal by suunflowerx
 
 Info page for your blog. 
-- Contains 
+- Contains 3 tags for your images.
 - Temlplate design was created by suunflowerx (visit author on deviantart for expressing your appreciation).
 
 
@@ -22,13 +22,11 @@ Info page for your blog.
 - tumblr version
   - **index #?** - all structure above in one file for tumblr
   
-- for tumblr 
-```
-https://
-```
+- [link for tumblr version ](https://github.com/VRN4K/tumblr-pages/blob/master/page%20%232:%20simple%20journal/tumblr%20version/index.html) 
+
 - page preview
 ```
-https://
+https://vrnkdev.tumblr.com/page2
 ```
 
 ## Built With
@@ -44,6 +42,6 @@ https://
 ## TODO list
 - [x] add readme.md 
 - [ ] add credit comments
-- [ ] upload fonts including
-- [ ] compose all in one
+- [x] upload fonts including
+- [x] compose all in one
  
