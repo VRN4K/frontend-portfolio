@@ -16,14 +16,10 @@
 }
 
 /* MAIN BLOCK */
-
 .main{
     display: flex;
     justify-content: center;
 
-}
-.left-side,.right-side{
-    height: 800px;
 }
 
 /* LEFT SIDE */
@@ -69,13 +65,10 @@
     margin-top: 295px;
 }
 
-
-
 /*RIGHT SIDE*/
 .right-side{
     width: 430px;
 }
-
 .right-side_top-title{
     font-family: RomanticChicago, serif;
     font-size: 49px;
@@ -94,7 +87,6 @@
     top: -5px;
     left: -60px;
 }
-
 .right-side_description{
     width: 260px;
     margin-left: 18px;
@@ -110,7 +102,6 @@
     margin-top: 8px;
     width: 216px;
     height: 236px;
-
 }
 .right-side_frame{
     position: relative;
@@ -133,26 +124,37 @@
     margin-top: 58px;
     margin-left: 80px;
 }
-
 .right-side_bottom-title::before{
     content: url(../images/Rellenodecolor1.png);
     position: absolute;
     left: 12px;
     top: -55px;
 }
+
 /* CREDITS */
 .credits{
     position: fixed;
-    bottom: 5%;
-    left: 92%;
+    width: 20px;
+    bottom: 8%;
+    left: 96%;
 }
 .credit_link{
-    color: black;
     font-size: 8px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
+    position: absolute;
+}
+.theme{
+    -webkit-text-stroke: 0.1px #757575;
+    color: black;
+}
+.design{
+    top: 8px;
+    left: 3px;
+    -webkit-text-stroke: 0.1px #757575;
+    color: #a57a72;
 }
 .credit_link:hover{
     color: #757575;

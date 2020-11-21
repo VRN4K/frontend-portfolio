@@ -7,8 +7,8 @@
     }
 
 .main{
-    margin-left: 25%;
-    margin-top: 3%;
+    display: flex;
+    justify-content: center;
 }
  .photo-bar, .text-form, .rectangle-form{
      display: inline-block;

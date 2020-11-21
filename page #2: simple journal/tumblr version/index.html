@@ -50,9 +50,6 @@
         display: flex;
         justify-content: center;
     }
-    .left-side,.right-side{
-        height: 800px;
-    }
 
     /* LEFT SIDE */
     .left-side{
@@ -171,22 +168,39 @@
         bottom: 5%;
         left: 92%;
     }
+    /* CREDITS */
+    .credits{
+        position: fixed;
+        width: 20px;
+        bottom: 8%;
+        left: 96%;
+    }
     .credit_link{
-        color: black;
         font-size: 8px;
         letter-spacing: 2px;
         text-transform: uppercase;
         font-family: 'Roboto', sans-serif;
         text-decoration: none;
+        position: absolute;
     }
     .credit_link:hover{
         color: #757575;
+    }
+    .theme{
+        -webkit-text-stroke: 0.1px #757575;
+        color: black;
+    }
+    .design{
+        top: 8px;
+        left: 3px;
+        -webkit-text-stroke: 0.1px #757575;
+        color: #a57a72;
     }
 </style>
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="shortcut icon" href="https://64.media.tumblr.com/28625a3fa62e06b59b2c95b95c65f4bd/tumblr_inline_mkhu55vB2n1qz4rgp.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://64.media.tumblr.com/28625a3fa62e06b59b2c95b95c65f4bd/tumblr_inline_mkhu55vB2n1qz4rgp.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>simple journal template by suunflowerx</title>
 </head>
@@ -201,7 +215,6 @@
     <div class="right-side">
         <h1 class="right-side_top-title">idol radio</h1>
         <p class="right-side_description">
-
             Hold me close and hold me fast
             The magic spell you cast
             This is la vie en rose
@@ -217,7 +230,6 @@
             Give your heart and soul to me
             And life will always be
             La vie en rose
-
         </p>
         <span class="right-side_frame">
             <img class="right-side_img" src="https://raw.githubusercontent.com/VRN4K/tumblr-pages/master/page%20%232%3A%20simple%20journal/src/images/Capa1.png" alt="Your right side photo"/>
@@ -228,9 +240,9 @@
 
 <!-- CREDITS -->
 <!-- DO NOT REMOVE THIS BLOCK -->
-<!-- design made by deviantart.com/suunflowerx ♡ -->
 <div class="credits">
-    <a class="credit_link" href="https://vrnkdev.tumblr.com/">vrnk-themes</a>
+    <a class="credit_link theme" href="https://vrnkdev.tumblr.com">thm</a>
+    <a class="credit_link design" href="https://www.deviantart.com/suunflowerx">dsgn</a>
 </div>
 </body>
 </html>
