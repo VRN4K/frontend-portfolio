@@ -1,15 +1,12 @@
 # simple journal by suunflowerx
 
 Info page for your blog. 
-- Contains 3 tags for your images.
-- Temlplate design was created by suunflowerx (visit author on deviantart for expressing your appreciation).
-
-
+- Contains: 3 tags for your images, 3 titles (one with a link), 1 paragraph for your description.
+- Template design was created by suunflowerx (visit author on deviantart for expressing your appreciation).
 
 ## Getting Started
 
-*instructions comming soon*
-
+*instructions coming soon*
 
 
 ## Project structure
@@ -41,7 +38,7 @@ https://vrnkdev.tumblr.com/page2
 
 ## TODO list
 - [x] add readme.md 
-- [ ] add credit comments
+- [x] add credit comments
 - [x] upload fonts including
 - [x] compose all in one
 - [ ] write the instruction
