@@ -1,7 +1,8 @@
     @font-face {
-        font-family: Markella;
-        src: url(../fonts/muthiara/Markella.ttf);
-
+        font-family: Muthiara;
+        src: url(../fonts/muthiara/Muthiara.otf);
+    }
+    @font-face {
         font-family: Helvetica;
         src: url(../fonts/helvetica/Helvetica.otf);
     }
@@ -10,14 +11,13 @@
     display: flex;
     justify-content: center;
 }
- .photo-bar, .text-form, .rectangle-form{
-     display: inline-block;
+ .left-side, .right-side{
+     width: 400px;
  }
  .rectangle-form{
      position: relative;
      width: 8%;
      z-index: 1;
-
  }
  .rectangle-colour{
      position: relative;
@@ -84,27 +84,20 @@
     margin: 45px 0 0 0 ;
     width: 300px;
 }
-.text-form{
-    position: absolute;
-}
 .text-form_title{
-    position: relative;
-    top: 5px;
-    left: 38px;
     font-size: 61px;
     letter-spacing: -2px;
     color: #269595;
-    font-family: Markella;
+    font-family: Muthiara, serif;
 }
 .text-form_text{
     width: 225px;
     text-align: center;
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     font-weight: bold;
     font-size: 10px;
     letter-spacing: 0.5px;
     line-height: 16px;
-    margin: -25px 0 0 35px;
 }
 .circles-form{
     position: relative;
@@ -129,3 +122,33 @@
     top: 36px;
     left: 38px;
 }
+
+/* CREDITS */
+.credits{
+    position: fixed;
+    width: 20px;
+    bottom: 8%;
+    left: 96%;
+}
+.credit_link{
+    font-size: 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    position: absolute;
+}
+.theme{
+    -webkit-text-stroke: 0.1px #757575;
+    color: black;
+}
+.design{
+    top: 8px;
+    left: 3px;
+    -webkit-text-stroke: 0.1px #757575;
+    color: #269595;
+}
+.credit_link:hover{
+    color: #757575;
+}
+
