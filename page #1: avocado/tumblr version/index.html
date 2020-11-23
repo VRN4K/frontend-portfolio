@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!-- DISCLAIMER -->
+<!-- I do not own the rights to this design, icons, images and fonts -->
+<!-- Use of document and related graphics available is for non-commercial or personal use only  -->
+<!-- All rights belong to the owner -->
+
+<html>
+<style>
+    /* FONTS */
+    /* Muthiara by Abo Daniel Studio*/
+    @font-face {
+        font-family: 'Muthiara';
+        src: url('https://dl.dropboxusercontent.com/s/vezd7v5ji5nukie/muthiara-webfont.eot');
+        src: url('https://dl.dropboxusercontent.com/s/vezd7v5ji5nukie/muthiara-webfont.eot?#iefix') format('embedded-opentype'),
+        url('https://dl.dropboxusercontent.com/s/cjsxxvlyr7x2sn2/muthiara-webfont.woff2') format('woff2'),
+        url('https://dl.dropboxusercontent.com/s/kqpscg35dxnbrv4/muthiara-webfont.woff') format('woff'),
+        url('https://dl.dropboxusercontent.com/s/kmfii6j1rtbovzc/muthiara-webfont.ttf') format('truetype'),
+        url('https://dl.dropboxusercontent.com/s/wcbjpzg9c5dshpx/muthiara-webfont.svg#muthiara_-demo_version-Rg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    /* MAIN BLOCK */
+    .main{
+        display: flex;
+        justify-content: center;
+    }
+    .left-side, .right-side{
+        width: 400px;
+    }
+
+    /* LEFT SIDE */
+    .rectangle-form{
+        position: relative;
+        width: 16%;
+        z-index: 1;
+    }
+    .rectangle-colour{
+        position: relative;
+        top: -92px;
+        left: -30px;
+    }
+    .rectangle-colour:hover{
+        left: -50px;
+        transition: left 2s;
+    }
+    .transition, .item_link, .credit_link{
+        transition: .6s ease-in-out;
+    }
+    .colour_grey{
+        background-color: #d6dada;
+    }
+    .colour_green{
+        background-color: #269595;
+    }
+    .rectangle-colour_text{
+        left: 9px;
+        padding: 5px 8px;
+        margin: 0 0 4px 0 ;
+        font-size: 10px;
+        color: #ffffff;
+        font-family: 'Roboto', serif;
+    }
+    .photo-bar{
+        width: 300px;
+        background: white;
+        padding-top: 9px;
+        position: relative;
+        filter: drop-shadow(0px 40px 12px rgba(0,0,0,0.12));
+        border: 19.4px solid #ffffff;
+        z-index: 2;
+    }
+    .navi-bar{
+        position: absolute;
+        list-style: none;
+        font-family: Roboto, serif;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 28px;
+        top: 3px;
+        right: -20px;
+    }
+    .navi-bar_item{
+        display: inline-block;
+        margin: 0 0 0 28px;
+    }
+    .navi-bar:first-child{
+        left: -56px;
+    }
+    .item_link{
+        text-decoration: none;
+        color: #000000;
+        padding: 2px 5px;
+    }
+    .item_link:hover{
+        background-color: #269595;
+        color: white;
+    }
+    .photo-bar_photo{
+        margin: 45px 0 0 0 ;
+        width: 300px;
+    }
+
+    /* RIGHT SIDE */
+    .text-form{
+        margin-left: -40px;
+    }
+    .text-form_title{
+        margin-top: 35px;
+        font-size: 61px;
+        color: #269595;
+        font-family: 'Muthiara', serif;
+    }
+    .text-form_text{
+        width: 225px;
+        margin: -60px 0 0 15px;
+        text-align: center;
+        font-family: Roboto, serif;
+        font-weight: bold;
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        line-height: 14px;
+    }
+    .circles-form{
+        position: relative;
+        display: block;
+        margin: 16px 0 0 18px;
+    }
+    .circles-form_round{
+        position: relative;
+        width: 159px;
+        height: 159px;
+        border: 29px solid transparent;
+        border-top-color: #269595;
+        border-left-color: #269595;
+        border-radius: 50%;
+        transform: rotate(45deg);
+    }
+    .circles-form_photo{
+        position:absolute;
+        width: 140px;
+        border-radius: 50%;
+        z-index: 2;
+        top: 36px;
+        left: 38px;
+    }
+
+    /* CREDITS */
+    .credits{
+        position: fixed;
+        width: 20px;
+        bottom: 8%;
+        left: 96%;
+    }
+    .credit_link{
+        font-size: 8px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        position: absolute;
+    }
+    .theme{
+        -webkit-text-stroke: 0.1px #757575;
+        color: black;
+    }
+    .design{
+        top: 8px;
+        left: 3px;
+        -webkit-text-stroke: 0.1px #757575;
+        color: #269595;
+    }
+    .credit_link:hover{
+        color: #757575;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://64.media.tumblr.com/49e3de93ccf99fc71309029bc9c93f98/tumblr_inline_mkhuqjSE7Y1qz4rgp.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>avocado by suunflowerx</title>
+</head>
+<body>
+<div class="main">
+    <div class="left-side">
+        <div class="photo-bar">
+            <ul class="navi-bar">
+                <li class="navi-bar_item">
+                    <a class="item_link" href="">update</a>
+                </li>
+                <li class="navi-bar_item">
+                    <a class="item_link" href="">gallery</a>
+                </li>
+                <li class="navi-bar_item">
+                    <a class="item_link" href="">archive</a>
+                </li>
+                <li class="navi-bar_item">
+                    <a class="item_link" href="">date</a>
+                </li>
+            </ul>
+            <img src="https://raw.githubusercontent.com/VRN4K/tumblr-pages/master/page%20%231%3A%20avocado/src/images/Capa%204.png"
+                 class="photo-bar_photo" alt="This is your large photo">
+        </div>
+        <div class="rectangle-form">
+            <div class="rectangle-colour transition">
+                <p class="rectangle-colour_text colour_grey">#d6dada</p>
+            </div>
+            <div class="rectangle-colour transition">
+                <p class="rectangle-colour_text colour_green">#269595</p>
+            </div>
+        </div>
+    </div>
+    <div class="right-side">
+        <div class="text-form">
+            <h1 class="text-form_title">Update--</h1>
+            <p class="text-form_text">Southern trees bear a strange fruit
+                <br>
+                Blood on the leaves and blood at the root
+                Black bodies swinging in the southern breeze
+                Strange fruit hanging from the poplar trees
+                Pastoral scene of the gallant South
+                <br>
+                The bulging eyes and the twisted mouth
+                Scent of magnolia, sweet and fresh
+                <br>
+                Then the sudden smell of burning flesh
+                <br>
+                Here is a fruit for the crows to pluck
+                <br>
+                For the rain to gather, for the wind to suck
+                For the sun to rot, for the tree to drop
+                <br>
+                Here is a strange and bitter crop</p>
+
+            <div class="circles-form">
+                <div class="circles-form_round"></div>
+                <img src="https://raw.githubusercontent.com/VRN4K/tumblr-pages/master/page%20%231%3A%20avocado/src/images/Layer%201.png"
+                     class="circles-form_photo" alt="This is your small photo">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CREDITS -->
+<!-- DO NOT REMOVE THIS BLOCK -->
+<div class="credits">
+    <a class="credit_link theme" href="https://vrnkdev.tumblr.com">thm</a>
+    <a class="credit_link design" href="https://www.deviantart.com/suunflowerx">dsgn</a>
+</div>
+</body>
+</html>
