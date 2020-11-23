@@ -16,16 +16,16 @@
  }
  .rectangle-form{
      position: relative;
-     width: 8%;
+     width: 16%;
      z-index: 1;
  }
  .rectangle-colour{
      position: relative;
-     top: -25px;
-     left: 25px;
+     top: -92px;
+     left: -30px;
  }
  .rectangle-colour:hover{
-     left: 5px;
+     left: -50px;
      transition: left 2s;
  }
  .transition, .item_link, .credit_link{
@@ -39,13 +39,12 @@
 }
 .rectangle-colour_text{
     left: 9px;
-    padding: 6px 8px;
+    padding: 5px 8px;
     margin: 0 0 4px 0 ;
-    font-size: 11px;
+    font-size: 10px;
     color: #ffffff;
     font-family: Helvetica, serif;
 }
-
 .photo-bar{
     width: 300px;
     background: white;
