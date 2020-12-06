@@ -75,7 +75,7 @@ For example changing title color:
 ### Project structure: Tumblr
 
 - code for tumblr:
-  - [click on me](https://github.com/VRN4K/tumblr-pages/blob/master/page%20%231:%20avocado/tumblr%20version/index.html#L218)
+  - [click on me](https://github.com/VRN4K/tumblr-pages/blob/master/page%20%231:%20avocado/tumblr%20version/index.html)
 
 - page preview:
   - [click on me](https://vrnkdev.tumblr.com/page1)
