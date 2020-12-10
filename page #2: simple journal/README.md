@@ -82,7 +82,7 @@ For example changing title color:
 
 - image preview:
 
-![preview img](https://sun9-44.userapi.com/impf/cgw8P0XTnhXs7XNWs4STH_3V4WI1Tp7Pte56Wg/FYLhmxh_Ae8.jpg?size=1280x623&quality=96&sign=bf58f0a4bc9ca4c4b031a46a4208bfba&type=album)
+![preview img](https://sun9-3.userapi.com/impf/YyndliqRZtXm_3YKZqjM4VpvRlApV7sonNTdIw/Qb9ZQYayyiU.jpg?size=929x601&quality=96&proxy=1&sign=4c4bf152580780e098767a1a4d29259c&type=album)
 
 
 ## Built With
