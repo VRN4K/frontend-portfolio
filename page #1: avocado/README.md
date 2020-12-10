@@ -80,6 +80,9 @@ For example changing title color:
 - page preview:
   - [click on me](https://vrnkdev.tumblr.com/page1)
 
+- image preview:
+
+![changing color](https://sun9-31.userapi.com/impf/LHpFOZ54sy1NNFc5rGmpx04Jyeld3ziDitIcMw/veh2O1NKmw4.jpg?size=829x448&quality=96&proxy=1&sign=13c736c5906e654c2de3415e54d7092e&type=album)
 
 ## Built With
 
