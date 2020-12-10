@@ -18,6 +18,13 @@ It doesn't mean you can't add mp3 player or something like that. You can extend 
 
 
 ### Terms of Use: Credits
+ 
+I do not own the rights to some designs, icons, images and fonts. All rights belong to the owners. 
+Special thanks to deviantart designers, which let me use their works.
+
+All links to them you can see in the credit section in the code of each page and in the readme.md files.
+Also you can see them in my credit page on [tumblr](https://vrnkdev.tumblr.com/credits).
+
 
 ## Project structure
 
